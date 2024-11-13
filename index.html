@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <title>Restaurant Map</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://js.arcgis.com/4.24/"></script>
+</head>
+
+<body>
+  <!-- Add the title above the map -->
+  <h1 id="mapTitle">Restaurant Map</h1>
+
+  <!-- Map container where the ArcGIS map will be rendered -->
+  <div id="viewDiv"></div>
+
+  <!-- Button Container -->
+  <div id="buttonContainer">
+    <button id="legendButton">Legend</button>
+  </div>
+
+  <!-- Legend Container -->
+  <div id="legend-container">
+    <h3>Map Legend</h3>
+    <ul id="legend-list">
+      <!-- JavaScript will dynamically add legend items here -->
+    </ul>
+  </div>
+
+  <!-- Link to JavaScript file -->
+  <script src="script.js"></script>
+</body>
+
+</html>

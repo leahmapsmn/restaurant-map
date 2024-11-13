@@ -1,0 +1,65 @@
+html,
+body,
+#viewDiv {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #FFB6C1; /* Light pink background */
+}
+
+#mapTitle {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin-top: 20px;
+}
+
+#buttonContainer {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#legendButton {
+  padding: 8px 16px;
+  background-color: #D8C9AE; /* Light beige */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#legend-container {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: #EEE5D1; /* Light beige */
+  color: #333;
+  border: 1px solid #D8C9AE; /* Border to match button */
+  border-radius: 8px;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+  width: 150px;
+  display: none; /* Initially hidden */
+}
+
+/* Position zoom buttons in the top-left corner */
+.esri-component.esri-zoom {
+  position: absolute;
+  top: 20px; /* Set to align near the top */
+  left: 20px; /* Set to align on the left */
+  background-color: #EEE5D1; /* Light beige */
+  border: 1px solid #D8C9AE;
+  border-radius: 8px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+}
+
+.esri-zoom__button {
+  background-color: #EEE5D1;
+  color: #333; /* Dark text color */
+  border: none;
+  font-weight: bold;
+}
